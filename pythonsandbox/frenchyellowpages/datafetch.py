@@ -1,0 +1,20 @@
+import requests
+
+
+
+url="https://www.pagesjaunes.fr/pros/detail?bloc_id=0383761500077061900002C0001&no_sequence=1&code_rubrique=58056600/?__cf_chl_captcha_tk__=7534007db0d217731e7ba6cb3818135a4d8d3a43-1606591957-0-AcDE6L40AksI-7XKiedNQ6K6z1LEI2oFQc44TrZxOVFxXm4xdZNePjgKTyXZYGsyvPbqrQKC5iffSJXf5JUS6i4-xl_KQ5gZD6C4OQ6yOi3gV5y5AE7PMVut42Tl29kI8_Pf_3Tu0keh_qNe7vvMPrioV6e3pt-EHIFRW4L8xfUo5EMmcaSNhVV6HSXuqvgpj-VQ-DTUAYHwqmEvDttXcx9vCsfH-ukHzoHYegSyjGiR9nFy8tJU3rn_EGR4_mkzt6nzYtvGCvelVKrwc63InbGTCh7YJrPwK6giBxjs7aCT_5-9-osRbjQCqFSjgvqZcGQ1tpNAhdJid5XuLUADVicbKwYdbtkrcPpXx52bWqI48r0mRgCE7YkTFahziVC0O-cbUsy8zFqb7G0RRY9ZhCNdgjPUmtdO5Ua9hWLMwbSf7mZOXpJPkNsf9IK9KX-DNSkrJkMazqW0md7XK_w0qLdz_qcdxTb7dTYXU2Moryi3EVo3rH9WL8Nza8VuGXzgyvpyBY5IAGqZdb5mnYZgpztYtHDzyWSIYe_lFqM6eEsK_cEQzGtSeA3RqF9MqwP13jfSMawiUiA5mzsK3XSWEcg"
+headers = {
+"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:83.0) Gecko/20100101 Firefox/83.0",
+"Accept-Encoding":"gzip, deflate, br",
+"Accept-Language":"en-US,en;q=0.5",
+"Connection":"keep-alive",
+"Cookie":"__cfduid=dbdbcdbf00f30d2931c62cbcfea56151f1606591935; cf_chl_prog=a21; cf_clearance=1e04a1d1056699630b451c338e38a64c7cdfe3d5-1606592018-0-250; pjtmctxv1=2131d955-3155-4bab-cbac-9adb7cd2e96c-1b8191b7-27fb#2ce50dfc-a8f6-444e-b5fe-6622a697d3ba#W1552#N#b7674e9a-8846-4b66-b92f-378c84036d98#W1C96#20201128#6d008bc6058fe5730588137d3456af65; pj_temp_id=1; VisitorID=250160659201815941; OAX=1ecb1ff746a92e6c; atidvisitor=%7B%22name%22%3A%22atidvisitor%22%2C%22val%22%3A%7B%22vrn%22%3A%22-483323-%22%2C%22at%22%3A%22%22%7…ZCI6WyJnZW9sb2NhdGlvbl9kYXRhIiwiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImdvb2dsZSJdfSwidmVyc2lvbiI6Mn0=; euconsent-v2=CO9mn1LO9mn1LAHABBENBBCsAP_AAH_AAAAAGaND7T5NIWNCyGZ8dIsEMQgaQoCEAkQABASAAmABAQCAIAACgmAQhATgBCACAAAAICIBAAIkCAAACQAAgAAAAAAAAAAABAEIAAAAgAAAAAIIAAACAIAAAAAYgAAAEAAAmwAAAAAAAABAvoAEQVJoCBISQwJBoUghAABCEAAgAAAAAAQAEwAACAABAAAQkgAAAAAAAAAAAAABABAIAAAAAEAAAAAMAAIAAAAAAAAAAAhAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAAECAAA.f_gAD_gAAAAA; kameleoonVisitorCode=_js_1da1yvunrag8qem8",
+"DNT":"1",
+"Host":"www.pagesjaunes.fr",
+"Referer":"https://www.pagesjaunes.fr/?__cf_chl_captcha_tk__=7534007db0d217731e7ba6cb3818135a4d8d3a43-1606591957-0-AcDE6L40AksI-7XKiedNQ6K6z1LEI2oFQc44TrZxOVFxXm4xdZNePjgKTyXZYGsyvPbqrQKC5iffSJXf5JUS6i4-xl_KQ5gZD6C4OQ6yOi3gV5y5AE7PMVut42Tl29kI8_Pf_3Tu0keh_qNe7vvMPrioV6e3pt-EHIFRW4L8xfUo5EMmcaSNhVV6HSXuqvgpj-VQ-DTUAYHwqmEvDttXcx9vCsfH-ukHzoHYegSyjGiR9nFy8tJU3rn_EGR4_mkzt6nzYtvGCvelVKrwc63InbGTCh7YJrPwK6giBxjs7aCT_5-9-osRbjQCqFSjgvqZcGQ1tpNAhdJid5XuLUADVicbKwYdbtkrcPpXx52bWqI48r0mRgCE7YkTFahziVC0O-cbUsy8zFqb7G0RRY9ZhCNdgjPUmtdO5Ua9hWLMwbSf7mZOXpJPkNsf9IK9KX-DNSkrJkMazqW0md7XK_w0qLdz_qcdxTb7dTYXU2Moryi3EVo3rH9WL8Nza8VuGXzgyvpyBY5IAGqZdb5mnYZgpztYtHDzyWSIYe_lFqM6eEsK_cEQzGtSeA3RqF9MqwP13jfSMawiUiA5mzsK3XSWEcg",
+"TE":"Trailers",
+"User-Agent":	"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:83.0) Gecko/20100101 Firefox/83.0",
+"X-Requested-With":"XMLHttpRequest"
+}
+res = requests.get(url,headers=headers)
+print(res)

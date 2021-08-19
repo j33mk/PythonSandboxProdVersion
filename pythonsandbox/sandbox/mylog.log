@@ -1,0 +1,51 @@
+
+Log has been created on 2020-12-08 22:54:22.999677
+------------------------------------------------------------------------------
+1. list_1 value 3 was divided by 0 and exception occured was division by zero
+2. list_1 value 4 was divided by 0 and exception occured was division by zero
+------------------------------------------------------------------------------
+Log has been created on 2020-12-08 22:54:32.956440
+------------------------------------------------------------------------------
+1. list_1 value 3 was divided by 0 and exception occured was division by zero
+2. list_1 value 4 was divided by 0 and exception occured was division by zero
+------------------------------------------------------------------------------
+Log has been created on 2020-12-08 22:56:59.739873
+------------------------------------------------------------------------------
+1. list_1 value 3 was divided by 0 and exception occured was division by zero
+2. list_1 value 4 was divided by 0 and exception occured was division by zero
+3. 2
+------------------------------------------------------------------------------
+Log has been created on 2020-12-08 22:57:26.216633
+------------------------------------------------------------------------------
+1. list_1 value 3 was divided by 0 and exception occured was division by zero
+2. list_1 value 4 was divided by 0 and exception occured was division by zero
+3. [Errno 2] No such file or directory: 'foo.txt'
+------------------------------------------------------------------------------
+Log has been created on 2020-12-08 22:58:51.594140
+------------------------------------------------------------------------------
+1. list_1 value 3 was divided by 0 and exception occured was division by zero
+2. list_1 value 4 was divided by 0 and exception occured was division by zero
+3. [Errno 2] No such file or directory: 'foo.txt'
+------------------------------------------------------------------------------
+Log has been created on 2020-12-08 22:59:19.026236
+------------------------------------------------------------------------------
+1. list_1 value 3 was divided by 0 and exception occured was division by zero
+2. list_1 value 4 was divided by 0 and exception occured was division by zero
+------------------------------------------------------------------------------
+Log has been created on 2020-12-08 22:59:41.741637
+------------------------------------------------------------------------------
+1. list_1 value 3 was divided by 0 and exception occured was division by zero
+2. list_1 value 4 was divided by 0 and exception occured was division by zero
+------------------------------------------------------------------------------
+Log has been created on 2020-12-08 23:00:21.747015
+------------------------------------------------------------------------------
+1. list_1 value 3 was divided by 0 and exception occured was division by zero
+2. list_1 value 4 was divided by 0 and exception occured was division by zero
+3. [Errno 2] No such file or directory: 'too.txt'
+------------------------------------------------------------------------------
+Log has been created on 2020-12-08 23:00:53.590376
+------------------------------------------------------------------------------
+1. list_1 value 3 was divided by 0 and exception occured was division by zero
+2. list_1 value 4 was divided by 0 and exception occured was division by zero
+3. [Errno 2] No such file or directory: 'foo.txt'
+------------------------------------------------------------------------------
