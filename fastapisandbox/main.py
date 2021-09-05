@@ -6,9 +6,11 @@ Created on Wed Nov 18 13:07:51 2020
 # pip install fastapi uvicorn
 
 # 1. Library imports
+from typing import Optional
 import uvicorn  # ASGI
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 
 app = FastAPI()
 
@@ -24,7 +26,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 3. Index route, opens automatically on http://127.0.0.1:8000
+#User Model
+
+class User(BaseModel):
+    name: str
+    email: str
+    address: str
+
 
 
 @app.get('/')
@@ -53,6 +61,10 @@ async def wait_for_me():
     time.sleep(4)
     return ('you waited and the reward is :)')
 
+@app.post('/addUser')
+async def add_user(user:User):
+    return user
+    
 
 @app.get('/users', tags=['User'])
 async def get_users() -> dict:

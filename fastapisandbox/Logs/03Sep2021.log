@@ -1,0 +1,24 @@
+------------------------------------------------------------------------------------------------------------------
+Error/Issue occured in file logger.py on 03/09/2021 17:03:30
+Exception: HTTPSConnectionPool(host='www.theguardian.com', port=443): Max retries exceeded with url: /uk (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f90ebd81940>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+Error/Issue occured in file logger.py on 03/09/2021 17:04:07
+Exception: HTTPSConnectionPool(host='www.theguardian.com', port=443): Max retries exceeded with url: /uk (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff58dd571f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+Error/Issue occured in file logger.py on 03/09/2021 17:04:16
+Exception: HTTPSConnectionPool(host='www.theguardian.com', port=443): Max retries exceeded with url: /uk (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff813e852b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+Error/Issue occured in file logger.py on 03/09/2021 17:05:36
+Exception: Couldn't find a tree builder with the features you requested: html5leb. Do you need to install a parser library?
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+Error/Issue occured in file logger.py on 03/09/2021 17:16:45
+Exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+Error/Issue occured in file logger.py on 03/09/2021 17:17:29
+Exception: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,14 @@
+GET http://localhost:8000/users/0 HTTP/1.1
+content-type:application/json
+
+GET http://localhost:8000/users HTTP/1.1
+content-type:application/json
+
+POST http://localhost:8000/addUser HTTP/1.1
+content-type:application/json
+
+{
+    "name":"Jamal Hussain",
+    "email":"xyz@gmail.com",
+    "address":"Labor colony hakim abad 333"
+}

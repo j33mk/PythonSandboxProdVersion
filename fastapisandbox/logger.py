@@ -1,7 +1,7 @@
 from datetime import datetime
 import os
 
-def Log(log_text):
+def Log(log_text,file_name):
     try:
         today = datetime.now()
         currentDate = today.strftime("%d%b%Y")
@@ -16,7 +16,7 @@ def Log(log_text):
         f = open(file_path,'a+')
         currentDateTime = today.strftime("%d/%m/%Y %H:%M:%S")
         f.write('------------------------------------------------------------------------------------------------------------------\n')
-        f.write('Error/Issue occured in file '+str(os.path.basename(__file__))+' on '+str(currentDateTime)+'\n')
+        f.write('Error/Issue occured in file '+file_name+' on '+str(currentDateTime)+'\n')
         f.write('Exception: '+str(log_text)+'\n')
         f.write('------------------------------------------------------------------------------------------------------------------\n')    
         f.close()
